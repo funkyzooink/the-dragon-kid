@@ -1,11 +1,11 @@
-Title:
+Title (max 50 characters):
 The Dragon Kid
 
-Short description:
+Short description (max 80 characters):
 The Dragon Kid is on a journey through mystery world 🕹️
 
 
-Full description:
+Full description (max 4000 characters):
 The Dragon Kid is on a journey through mystery world - a classical platform / jump and run game.
 
 On the way through multiple exciting worlds you can transform into the Dragon Kid to throw fireballs.
