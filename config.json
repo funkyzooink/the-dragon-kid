@@ -2,7 +2,5 @@
     "app_name": "The Dragon Kid",
     "ios_bundle_id": "de.funkyzoo.TheDragonKid",
     "play_bundle_id": "de.funkyzoo.TheDragonKid",
-    "underground_bundle_id": "de.funkyzoo.TheDragonKidUnderground",
-    "version_code": 27,
     "version_name": "2.0"
 }
