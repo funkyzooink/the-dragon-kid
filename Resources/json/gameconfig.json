@@ -1,19 +1,5 @@
 {
     "sharing": {
-        "android": {
-            "other_games": {
-                "title": "sharing_other_on_google",
-                "icon": "ctrl_more.png",
-                "url": "https://play.google.com/store/apps/dev?id=8573000756928281834",
-                "reward": 500
-            },
-            "rate": {
-                "title": "sharing_rate_on_google",
-                "icon": "ctrl_rate.png",
-                "url": "https://play.google.com/store/apps/details?id=de.funkyzoo.TheDragonKid",
-                "reward": 500
-            }
-        },
         "default": {
             "twitter": {
                 "title": "sharing_twitter",
