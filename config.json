@@ -1,6 +1,6 @@
 {
     "app_name": "The Dragon Kid",
     "ios_bundle_id": "de.funkyzoo.TheDragonKid",
-    "play_bundle_id": "de.funkyzoo.TheDragonKid",
+    "play_bundle_id": "com.funkyzoo.TheDragonKid",
     "version_name": "2.0"
 }
