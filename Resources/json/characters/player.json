@@ -3,7 +3,7 @@
         "id": 0,
         "x_speed": 13,
         "y_speed": 5,
-        "can_kill_by_jump": true,
+        "can_kill": "jump",
         "animations": {
             "idle_left": [
                 "player1/idle-left-1.png",
@@ -44,8 +44,8 @@
         "x_speed": 15,
         "y_speed": 7.5,
         "upgrade": "helmetyellow",
-        "can_kill_by_jump": true,
-        "additional_button": "down",
+        "can_kill": "jump",
+        "custom_action_1": "down",
         "animations": {
             "idle_left": [
                 "player2/idle-left-1.png",
@@ -91,8 +91,7 @@
             "bullet",
             "bullet"
         ],
-        "can_kill_by_jump": false,
-        "additional_button": "shoot",
+        "custom_action_1": "shoot",
         "animations": {
             "idle_left": [
                 "player3/idle-left-1.png",
