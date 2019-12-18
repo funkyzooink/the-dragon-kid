@@ -46,7 +46,7 @@
     },
     "helmetyellow": {
         "action": {
-            "player": 1,
+            "player": "player2",
             "audio": "powerup"
         },
         "animations": {
@@ -60,7 +60,7 @@
     },
     "helmetgreen": {
         "action": {
-            "player": 2,
+            "player": "player3",
             "audio": "powerup"
         },
         "flip_animation_x": true,
