@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="32" tileheight="32" nextobjectid="223">
+ <tileset firstgid="1" name="world4" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="34" columns="34">
+  <image source="world4.png" width="1360" height="40"/>
+ </tileset>
+ <tileset firstgid="35" name="hazard" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="9" columns="9">
+  <image source="hazard.png" width="360" height="40"/>
+ </tileset>
+ <tileset firstgid="44" name="elements2" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="38" columns="38">
+  <image source="elements2.png" width="1520" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztm+tqwzAMhcX2Y2X3S7sFygbd+z/kGpjB9STFjiRbznzgwEi6xnb02ZKTTgAwDf/x+9kfQh8KvjP9bAu/AK1XB+0r9TPTn1y17oM3H2XDeaE3uGRgz3z2iWjPEqdaXHFsBPXGyOBD1zkxYqWUpRymZlFcWfV7ZuT4a+/r4eBjG2xIlPJRkhfOMWzVbw1uJZ7HYWluyVHruGztXrkISuNQY87UELUeltZsLdkAhbb0YmxePSiMX2t55WOtpOuOJhsgbIuXOM+x5phZ6O7s68T3Gf9XsgfQgyR8aLMBgra0cu/zIyUsLrbaV045eRmWg1mwAch1PNtqDDxo8JEvbE/CKi4ksSp9fra1HAkTljdhfoDBR65iPjTYSO9RnNeOeVxfp+hvST6dw0cufyU1jXfFOZgkDj/P/gJ+j+O/zOOtJOHjEfC4jpnA1h0pc5pau+9QU1vbA/SoE3H8FnRqr/ieWa9Jmuqhrhp82InigtLa51/e+aDyPGx+qB1/N0i7dtH5GnvkXI3jUVRclx4v1drY9s5HSZvivLFWrRS/W1nrnQkuD07vQ2kdaTFmXOx/KxznrhG0NrbjmCqtObzxYdnWsFbskHPhe2uJG5O0b1rj13tu2Pq9Pe3xC/OehFnttlIMDD78qzUf8zqkmbdY9ie911gdga0VmnxcEdfUttb8kpu7rmkDNpaSc4C012Ke1WSEy08w1eRjVvobLayW0OSj9b0abmOOkaXfUEqev5SYyhUCI1SdPTHHqXOUfgDb/6SY
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="64" y="512" width="32" height="64"/>
+  <object id="54" name="exit" x="6240" y="192" width="64" height="96"/>
+  <object id="55" name="coin" x="736" y="352" width="32" height="32"/>
+  <object id="56" name="coin" x="1760" y="448" width="32" height="32"/>
+  <object id="57" name="coin" x="1824" y="480" width="32" height="32"/>
+  <object id="58" name="coin" x="800" y="384" width="32" height="32"/>
+  <object id="59" name="coin" x="1632" y="448" width="32" height="32"/>
+  <object id="60" name="coin" x="1568" y="480" width="32" height="32"/>
+  <object id="61" name="coin" x="1504" y="448" width="32" height="32"/>
+  <object id="62" name="coin" x="1696" y="480" width="32" height="32"/>
+  <object id="64" name="coin" x="2848" y="448" width="32" height="32"/>
+  <object id="66" name="coin" x="2912" y="448" width="32" height="32"/>
+  <object id="67" name="coin" x="2816" y="480" width="32" height="32"/>
+  <object id="68" name="coin" x="2880" y="480" width="32" height="32"/>
+  <object id="69" name="coin" x="2912" y="512" width="32" height="32"/>
+  <object id="70" name="coin" x="2880" y="544" width="32" height="32"/>
+  <object id="71" name="coin" x="2848" y="512" width="32" height="32"/>
+  <object id="72" name="coin" x="2816" y="544" width="32" height="32"/>
+  <object id="75" name="coin" x="3424" y="448" width="32" height="32"/>
+  <object id="76" name="coin" x="3456" y="448" width="32" height="32"/>
+  <object id="80" name="coin" x="4576" y="576" width="32" height="32"/>
+  <object id="81" name="coin" x="4544" y="544" width="32" height="32"/>
+  <object id="82" name="coin" x="4512" y="576" width="32" height="32"/>
+  <object id="83" name="coin" x="4576" y="512" width="32" height="32"/>
+  <object id="97" name="coin" x="5632" y="448" width="32" height="32"/>
+  <object id="98" name="coin" x="5504" y="448" width="32" height="32"/>
+  <object id="104" name="attacker" x="1280" y="416" width="32" height="64"/>
+  <object id="105" name="doublewalkershooter" x="896" y="416" width="32" height="64"/>
+  <object id="106" name="doublewalker" x="2848" y="224" width="32" height="64"/>
+  <object id="111" name="flyer" x="1728" y="352" width="32" height="64"/>
+  <object id="113" name="flyer" x="5888" y="288" width="32" height="64"/>
+  <object id="114" name="flyer" x="4384" y="480" width="32" height="64"/>
+  <object id="115" name="staticshooter" x="1120" y="416" width="32" height="64"/>
+  <object id="118" name="staticshooter" x="1824" y="512" width="32" height="64"/>
+  <object id="119" name="staticshooter2" x="3072" y="224" width="32" height="64"/>
+  <object id="123" name="staticshooter" x="6016" y="352" width="32" height="64"/>
+  <object id="127" name="walker" x="4800" y="352" width="32" height="64"/>
+  <object id="130" name="doublewalkershooter" x="3392" y="288" width="32" height="64"/>
+  <object id="132" name="flyer" x="5792" y="384" width="32" height="64"/>
+  <object id="133" name="coin" x="5568" y="448" width="32" height="32"/>
+  <object id="161" name="drunkflyer" x="3520" y="288" width="32" height="64"/>
+  <object id="164" name="jumper" x="3584" y="256" width="32" height="64"/>
+  <object id="165" name="staticshooter" x="3936" y="256" width="32" height="64"/>
+  <object id="174" name="flyer" x="2528" y="384" width="32" height="64"/>
+  <object id="175" name="coin" x="4512" y="512" width="32" height="32"/>
+  <object id="177" name="flyer" x="4832" y="224" width="32" height="64"/>
+  <object id="178" name="staticshooter2" x="4992" y="288" width="32" height="64"/>
+  <object id="179" name="doublewalker" x="5248" y="384" width="32" height="64"/>
+  <object id="180" name="walker" x="5536" y="480" width="32" height="64"/>
+  <object id="181" name="coin" x="4224" y="448" width="32" height="32"/>
+  <object id="183" name="coin" x="4160" y="352" width="32" height="32"/>
+  <object id="185" name="coin" x="4096" y="288" width="32" height="32"/>
+  <object id="200" name="jumper" x="704" y="384" width="32" height="64"/>
+  <object id="201" name="coin" x="2272" y="416" width="32" height="32"/>
+  <object id="202" name="coin" x="2304" y="416" width="32" height="32"/>
+  <object id="203" name="coin" x="2464" y="416" width="32" height="32"/>
+  <object id="204" name="coin" x="2496" y="416" width="32" height="32"/>
+  <object id="205" name="coin" x="2912" y="224" width="32" height="32"/>
+  <object id="206" name="coin" x="2944" y="224" width="32" height="32"/>
+  <object id="207" name="coin" x="2976" y="224" width="32" height="32"/>
+  <object id="208" name="coin" x="3424" y="416" width="32" height="32"/>
+  <object id="209" name="coin" x="3456" y="416" width="32" height="32"/>
+  <object id="210" name="coin" x="6112" y="288" width="32" height="32"/>
+  <object id="211" name="coin" x="6144" y="288" width="32" height="32"/>
+  <object id="212" name="coin" x="4192" y="384" width="32" height="32"/>
+  <object id="213" name="coin" x="4128" y="320" width="32" height="32"/>
+  <object id="214" name="coin" x="2080" y="416" width="32" height="32"/>
+  <object id="215" name="coin" x="2112" y="416" width="32" height="32"/>
+  <object id="217" name="coin" x="1952" y="384" width="32" height="32"/>
+  <object id="218" name="coin" x="2208" y="384" width="32" height="32"/>
+  <object id="219" name="coin" x="2400" y="384" width="32" height="32"/>
+  <object id="220" name="coin" x="2656" y="288" width="32" height="32"/>
+  <object id="221" name="coin" x="3456" y="384" width="32" height="32"/>
+  <object id="222" name="coin" x="3424" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="interactionObjects">
+  <object id="137" name="destroy" x="3424" y="352" width="32" height="32"/>
+  <object id="138" name="destroy" x="3456" y="352" width="32" height="32"/>
+  <object id="186" name="destroy" x="1888" y="480" width="32" height="32"/>
+  <object id="187" name="destroy" x="1984" y="448" width="32" height="32"/>
+  <object id="188" name="destroy" x="2080" y="480" width="32" height="32"/>
+  <object id="189" name="destroy" x="2176" y="448" width="32" height="32"/>
+  <object id="190" name="destroy" x="2272" y="480" width="32" height="32"/>
+  <object id="191" name="destroy" x="2368" y="448" width="32" height="32"/>
+  <object id="192" name="destroy" x="2464" y="480" width="32" height="32"/>
+  <object id="193" name="destroy" x="2560" y="416" width="32" height="32"/>
+  <object id="194" name="destroy" x="2624" y="384" width="32" height="32"/>
+  <object id="195" name="destroy" x="2688" y="480" width="32" height="32"/>
+  <object id="196" name="destroy" x="2720" y="320" width="32" height="32"/>
+  <object id="197" name="destroy" x="2112" y="480" width="32" height="32"/>
+  <object id="198" name="destroy" x="2304" y="480" width="32" height="32"/>
+  <object id="199" name="destroy" x="2496" y="480" width="32" height="32"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENACAIBEDWQfffT0srTWw05C756ikoIAIAAAAAAAAAAAAA6mgz/fUSAACUkEt+kIfsZm86qGR32zedHwEqGz+0BXY=
+  </data>
+ </layer>
+ <layer name="elementsLayer" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2TsKgDAQBcAcycLGxkbxA3r/6xhBEFtF1uAMPFKkeaTIFpsSwH3Vw3sA4GRuAhDNLAK+yN8EZRpy+ugSXNTRBQAAgKI10QUA4KblONfQFgD/te+Mxpw5Zwru8kVd8i5vaqMLQOHs/YENadkE8g==
+  </data>
+ </layer>
+</map>

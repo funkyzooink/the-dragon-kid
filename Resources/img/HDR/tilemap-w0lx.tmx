@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" nextobjectid="71">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="45">
+        <image source="world1.png" width="3600" height="80"/>
+    </tileset>
+    <tileset firstgid="46" name="hazard" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="9">
+        <image source="hazard.png" width="720" height="80"/>
+    </tileset>
+    <tileset firstgid="55" name="elements1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="41">
+        <image source="elements1.png" width="3280" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztl0EOwjAMBCPgBAeQ4AASPKH//15zDFY2TdoodqwdaW9V6npkqwmBEEIIIYQQQubiHnMWeahWRHryjPmJvFQrIj2hX1/IfUy/vpA+6dcX9OuLrX3sye+iXYACWz4t+11Eap4fSe5uOfqOObPfVkb7zfUu7eEp/Du/dXhn6z5GfmVtLbl0+I49WPOb4xpw32r8t/pEflHdtRlNaVeWUrNH0dl7/B7Fit8j828hqXfk8R3zBflgRVlKc53OtxW/syedP+RX4z/Fit8V4S8lsw==</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="1088" y="1024" width="64" height="128"/>
+        <object id="53" name="exit" x="7552" y="768" width="128" height="192"/>
+        <object id="54" name="walker" x="2240" y="960" width="64" height="128"/>
+        <object id="55" name="flyer" x="2496" y="896" width="64" height="128"/>
+        <object id="56" name="drunkflyer" x="2816" y="896" width="64" height="128"/>
+        <object id="57" name="jumper" x="2944" y="1024" width="64" height="128"/>
+        <object id="59" name="coin" x="1920" y="896" width="64" height="64"/>
+        <object id="60" name="coin" x="2048" y="896" width="64" height="64"/>
+        <object id="61" name="powerup" x="2624" y="896" width="64" height="64"/>
+        <object id="62" name="helmetgreen" x="1536" y="1024" width="64" height="64"/>
+        <object id="63" name="helmetyellow" x="1664" y="1024" width="64" height="64"/>
+    </objectgroup>
+    <objectgroup name="interactionObjects">
+        <object id="58" name="destroy" x="1856" y="832" width="64" height="64"/>
+        <object id="64" name="destroy" x="1856" y="896" width="64" height="64"/>
+        <object id="65" name="destroy" x="1856" y="960" width="64" height="64"/>
+        <object id="66" name="destroy" x="1856" y="1024" width="64" height="64"/>
+        <object id="67" name="destroy" x="1280" y="896" width="64" height="64"/>
+        <object id="68" name="destroy" x="1216" y="896" width="64" height="64"/>
+        <object id="69" name="destroy" x="1152" y="896" width="64" height="64"/>
+        <object id="70" name="destroy" x="1088" y="896" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzrEJACEQAEELsBnFt//SNDAzEB70khnYfFMCAAAAAAAAgDe+WY+e4LoWPUCIuuIsRw/8UFbsBq/TAXI=</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt0zEOABAUREE3E9z/ThqtRMMnZpLtX7MpAQAAAAAAADMtOoDjSnTAQ/LYqrorhGv5E/CDDmaBAYY=</data>
+    </layer>
+</map>

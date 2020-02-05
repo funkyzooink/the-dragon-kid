@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32" nextobjectid="62">
+ <tileset firstgid="1" name="world1" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="36" columns="36">
+  <image source="world1.png" width="1440" height="40"/>
+ </tileset>
+ <tileset firstgid="37" name="elements1" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="40" columns="40">
+  <image source="elements1.png" width="1600" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1M0KgCAQRtEB2/TfsnX1/s+YmyAkTSxlhHvg20VNM44iAAAAAAAAAAAAQP02m93miHi2tzGeDLkKRHbXXDub1ZNJ8sw8dKZKpfnhPzSbxT/XUFoJ9y1m/qnf/julpZ7rmJ667w7t7ZcsEbVomW/pO2NMrPPpHnXnXqqnb/ttFM239tx3SVNPtdRyAs9fHlo=
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="64" y="512" width="32" height="64"/>
+  <object id="53" name="exit" x="3776" y="384" width="64" height="96"/>
+  <object id="60" name="walker" x="3392" y="416" width="32" height="64"/>
+  <object id="61" name="helmetgreen" x="2304" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="interactionObjects">
+  <object id="54" name="destroy" x="1472" y="448" width="32" height="32"/>
+  <object id="55" name="destroy" x="1504" y="448" width="32" height="32"/>
+  <object id="56" name="destroy" x="1536" y="448" width="32" height="32"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzkERAAAIA6DFsH9SS+z0AwlIAAAAAAAAAACAa/MdoGIBUEAAGQ==
+  </data>
+ </layer>
+ <layer name="elementLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0t0KwjAMhuFezQ71xB8EEeqh7v6vx4kVYsjcVm0b8X1gtNu6EZIvBAAAAAAAAABenFoXgGL2w7UdrmO6bzVrMlbGLjzme1D7vmINczO2JAPP+r3npkZ9Z7GPab2mdc6cc2u8pFXOV2ZMGnv+7t9Lv6lB9krn2jpTyn3OXXidveWTHsaJ/Uqdt2rZTPw7jrxvQc/Tmq/HTHrqoXe6V1bvcvu5zvzuH3WtC/gxZAvAN9wANm4ROQ==
+  </data>
+ </layer>
+</map>

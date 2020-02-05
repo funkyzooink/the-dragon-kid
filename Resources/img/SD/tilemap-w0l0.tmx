@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="16" tileheight="16" nextobjectid="62">
+    <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="36" columns="36">
+        <image source="world1.png" width="720" height="20"/>
+    </tileset>
+    <tileset firstgid="37" name="elements1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="40" columns="40">
+        <image source="elements1.png" width="800" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1M0KgCAQRtEB2/TfsnX1/s+YmyAkTSxlhHvg20VNM44iAAAAAAAAAAAAQP02m93miHi2tzGeDLkKRHbXXDub1ZNJ8sw8dKZKpfnhPzSbxT/XUFoJ9y1m/qnf/julpZ7rmJ667w7t7ZcsEbVomW/pO2NMrPPpHnXnXqqnb/ttFM239tx3SVNPtdRyAs9fHlo=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="32" y="256" width="16" height="32"/>
+        <object id="53" name="exit" x="1888" y="192" width="32" height="48"/>
+        <object id="60" name="walker" x="1696" y="208" width="16" height="32"/>
+        <object id="61" name="helmetgreen" x="1152" y="208" width="16" height="16"/>
+    </objectgroup>
+    <objectgroup name="interactionObjects">
+        <object id="54" name="destroy" x="736" y="224" width="16" height="16"/>
+        <object id="55" name="destroy" x="752" y="224" width="16" height="16"/>
+        <object id="56" name="destroy" x="768" y="224" width="16" height="16"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzkERAAAIA6DFsH9SS+z0AwlIAAAAAAAAAACAa/MdoGIBUEAAGQ==</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt0t0KwjAMhuFezQ71xB8EEeqh7v6vx4kVYsjcVm0b8X1gtNu6EZIvBAAAAAAAAABenFoXgGL2w7UdrmO6bzVrMlbGLjzme1D7vmINczO2JAPP+r3npkZ9Z7GPab2mdc6cc2u8pFXOV2ZMGnv+7t9Lv6lB9krn2jpTyn3OXXidveWTHsaJ/Uqdt2rZTPw7jrxvQc/Tmq/HTHrqoXe6V1bvcvu5zvzuH3WtC/gxZAvAN9wANm4ROQ==</data>
+    </layer>
+</map>
