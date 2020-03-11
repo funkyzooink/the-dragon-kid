@@ -1,5 +1,4 @@
 os: osx
-language: ruby
 script:
   # - ./travis.sh
 env:
