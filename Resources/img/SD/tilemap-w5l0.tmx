@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="16" tileheight="16" nextobjectid="54">
+    <tileset firstgid="1" name="world6" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="36">
+        <image source="world6.png" width="722" height="20"/>
+    </tileset>
+    <tileset firstgid="37" name="hazard" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="6">
+        <image source="hazard.png" width="120" height="20"/>
+    </tileset>
+    <tileset firstgid="43" name="elements2" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="42">
+        <image source="elements2.png" width="840" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1UEKgCAURVGpWZEFbcD2v8kaJKSomZRW3gOPwLAPPkghAAAAAAAAANxFRQQAkE4lJNZiBf82bmk9mW6eJQ/5GuXJ283CPHc7jTA77639nWNNr0vrXWhOidQg5xmU7rN0v/pfmVPN/Q77M3RH6fic7bvyrSfU3m9sfGL363muu+xJNfe7AiKKEm0=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="32" y="256" width="16" height="32"/>
+        <object id="53" name="exit" x="1888" y="192" width="32" height="48"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt0sEJACAMA0CXUfff0IcD+DAUlDvIAE3aGgAAAAAAAAD8YQbDNgpz0oN5WfJnk53edm7fLXmTfWssIZ8Yuw==</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzrsNwCAMBFCGossINOSz/yw0VDSxG6JI70mWi7viSgEAAAAAIKK/5OeWFURcyf4T7N3ZIaQd87dPVwDA/9TlANhnAGJxAvE=</data>
+    </layer>
+</map>
