@@ -46,6 +46,7 @@
             "fx_on_button": "ctrl_effectson.png",
             "fx_off_button": "ctrl_effectsoff.png",
             "arrow_up": "ctrl_arrowUp.png",
+            "arrow_down": "ctrl_arrowDown.png",
             "arrow_shoot": "ctrl_shoot.png",
             "hud_money": "ig_coin.png",
             "hud_enemy": "walker/idle-right-1.png",
